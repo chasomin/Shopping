@@ -15,6 +15,9 @@
 		795CF30C2BECB12E00A2882B /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795CF30B2BECB12E00A2882B /* ViewModelType.swift */; };
 		795CF30E2BECB22A00A2882B /* Shopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795CF30D2BECB22A00A2882B /* Shopping.swift */; };
 		795CF3102BECB39200A2882B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 795CF30F2BECB39200A2882B /* .gitignore */; };
+		795CF3122BECB4CA00A2882B /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795CF3112BECB4CA00A2882B /* APIKey.swift */; };
+		795CF3142BECB55B00A2882B /* ShoppingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795CF3132BECB55B00A2882B /* ShoppingView.swift */; };
+		795CF3162BECB5D900A2882B /* ShoppingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795CF3152BECB5D900A2882B /* ShoppingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		795CF30B2BECB12E00A2882B /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
 		795CF30D2BECB22A00A2882B /* Shopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping.swift; sourceTree = "<group>"; };
 		795CF30F2BECB39200A2882B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		795CF3112BECB4CA00A2882B /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		795CF3132BECB55B00A2882B /* ShoppingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingView.swift; sourceTree = "<group>"; };
+		795CF3152BECB5D900A2882B /* ShoppingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				795CF3072BECB0FD00A2882B /* Network.swift */,
+				795CF3112BECB4CA00A2882B /* APIKey.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -99,6 +106,8 @@
 		795CF3092BECB10C00A2882B /* Present */ = {
 			isa = PBXGroup;
 			children = (
+				795CF3132BECB55B00A2882B /* ShoppingView.swift */,
+				795CF3152BECB5D900A2882B /* ShoppingViewModel.swift */,
 			);
 			path = Present;
 			sourceTree = "<group>";
@@ -186,6 +195,9 @@
 				795CF30E2BECB22A00A2882B /* Shopping.swift in Sources */,
 				795CF2FA2BECB0D400A2882B /* ContentView.swift in Sources */,
 				795CF2F82BECB0D400A2882B /* ShoppingApp.swift in Sources */,
+				795CF3142BECB55B00A2882B /* ShoppingView.swift in Sources */,
+				795CF3122BECB4CA00A2882B /* APIKey.swift in Sources */,
+				795CF3162BECB5D900A2882B /* ShoppingViewModel.swift in Sources */,
 				795CF3082BECB0FD00A2882B /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
